@@ -1,0 +1,22 @@
+{"xref": {
+  "whenMade": 1479492125669,
+  "createdBy": "JBehave",
+  "metaFilter": "-ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "",
+      "narrative": "",
+      "name": "hello.story",
+      "path": "Stories/hello.story",
+      "html": "Stories.hello.html",
+      "meta": "",
+      "scenarios": "Scenario:Login into google page\nGiven I open google page\nWhen I search for term 'apple'\nThen I should see link for 'apple'\n\n\n",
+      "passed": true,
+      "pending": true,
+      "started": 1479492124375,
+      "duration": 274
+    }
+  ],
+  "stepMatches": []
+}}

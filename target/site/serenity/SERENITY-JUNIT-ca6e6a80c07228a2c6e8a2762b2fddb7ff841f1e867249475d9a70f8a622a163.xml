@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Title of your feature" skipped="0" tests="1" time="13.47" timestamp="2016-11-323 01:02:05"><testcase name="Title of your scenario"><error message="org.junit.ComparisonFailure: expected:&lt;[tru]e&gt; but was:&lt;[fals]e&gt;" type="java.lang.RuntimeException">org.junit.ComparisonFailure: expected:&lt;[tru]e&gt; but was:&lt;[fals]e&gt;</error><system-err>org.junit.ComparisonFailure: expected:&lt;[tru]e&gt; but was:&lt;[fals]e&gt;&#13;
+kumar.steps.HelloStep.shouldSeeDefinitionOfApple(HelloStep.java:32)&#13;
+kumar.maps.HelloCucumberMap.shouldSeeDefinitionOfApple(HelloCucumberMap.java:24)&#13;
+</system-err></testcase></testsuite>

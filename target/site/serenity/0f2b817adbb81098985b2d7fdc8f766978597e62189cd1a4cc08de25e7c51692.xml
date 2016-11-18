@@ -1,0 +1,16 @@
+<acceptance-test-run title="Login into google page" name="Login into google page" steps="3" successful="0" failures="0" skipped="0" ignored="0" pending="3" annotated-result="PENDING" result="PENDING" duration="104" timestamp="2016-11-18T13:02:04.454-05:00">
+  <user-story id="hello" name="Hello" path="Stories/hello.story"/>
+  <tags>
+    <tag name="Hello" type="story"/>
+    <tag name="Stories/Hello" type="story"/>
+  </tags>
+  <test-step result="PENDING" duration="3">
+    <description>Given I open google page</description>
+  </test-step>
+  <test-step result="PENDING" duration="1">
+    <description>When I search for term &apos;apple&apos;</description>
+  </test-step>
+  <test-step result="PENDING" duration="0">
+    <description>Then I should see link for &apos;apple&apos;</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testSuite.AcceptanceTestSuite" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="BAHCND5292F7T" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Processing system properties {}
+Using controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=true,ignoreFailureInView=true,verboseFailures=false,verboseFiltering=false,storyTimeoutInSecs=300,failOnStoryTimeout=false,threads=1]
+Running story Stories/hello.story
+
+
+
+Generating reports view to 'C:\Users\565362\workspace\Hello\build\classes\jbehave' using formats '[stats, console, html, xml, serenityreporter, junitscenarioreporter]' and view properties '{decorateNonHtml=true}'
+Reports view generated with 1 stories (of which 1 pending) containing 1 scenarios (of which 1 pending)
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\565362\workspace\Hello\serenity.properties 
+[Test worker] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitwait=10000
+[Test worker] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=firefox
+[Test worker] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=http://www.google.com
+[Test worker] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=FOR_FAILURES
+[Test worker] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\565362\workspace\Hello\serenity.properties 
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+            __  _____ _____ ____ _____   ____  _  _____ ____  ____  _____ ____  
+  _        / / |_   _| ____/ ___|_   _| / ___|| |/ /_ _|  _ \|  _ \| ____|  _ \ 
+ (_)_____ / /    | | |  _| \___ \ | |   \___ \| ' / | || |_) | |_) |  _| | | | |
+  _|_____/ /     | | | |___ ___) || |    ___) | . \ | ||  __/|  __/| |___| |_| |
+ (_)    /_/      |_| |_____|____/ |_|   |____/|_|\_\___|_|   |_|   |_____|____/ 
+                                                                                
+
+TEST PENDING: Login into google page
+---------------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.reports.ReportService - Reporting formats: [JSON, XML, HTML]
+[Test worker] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@52adc5d8(format = Optional.of(XML))
+[Test worker] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@52adc5d8
+[Test worker] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@b7c6c51(format = Optional.of(JSON))
+[Test worker] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@b7c6c51
+[Test worker] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@720d8fae(format = Optional.of(HTML))
+[Test worker] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@720d8fae
+[Test worker] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@52adc5d8
+[Test worker] INFO net.thucydides.core.reports.ReportService - Processing test outcome Hello:Login into google page
+[Test worker] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@52adc5d8: Generating report for test outcome: Hello:Login into google page
+[Test worker] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Login into google page to file C:\Users\565362\workspace\Hello\target\site\serenity\0f2b817adbb81098985b2d7fdc8f766978597e62189cd1a4cc08de25e7c51692.xml
+[Test worker] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (C:\Users\565362\workspace\Hello\target\site\serenity\0f2b817adbb81098985b2d7fdc8f766978597e62189cd1a4cc08de25e7c51692.xml bytes) 829
+[Test worker] INFO net.thucydides.core.reports.ReportService - Report generated for Hello:Login into google page
+[Test worker] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+[Test worker] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-0f2b817adbb81098985b2d7fdc8f766978597e62189cd1a4cc08de25e7c51692.xml
+[Test worker] INFO net.thucydides.core.reports.ReportService - Reports generated in: 243
+[Test worker] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@b7c6c51
+[Test worker] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+[pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Hello:Login into google page
+[pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@b7c6c51: Generating report for test outcome: Hello:Login into google page
+[Test worker] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-0f2b817adbb81098985b2d7fdc8f766978597e62189cd1a4cc08de25e7c51692.xml
+[pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Hello:Login into google page
+[Test worker] INFO net.thucydides.core.reports.ReportService - Reports generated in: 54
+[Test worker] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@720d8fae
+[Test worker] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+[pool-4-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Hello:Login into google page
+[Test worker] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-0f2b817adbb81098985b2d7fdc8f766978597e62189cd1a4cc08de25e7c51692.xml
+[pool-4-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@720d8fae: Generating report for test outcome: Hello:Login into google page
+[pool-4-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Reading requirements from net.thucydides.core.requirements.FileSystemRequirementsTagProvider@41da0549
+[pool-4-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Requirement ancestors for:Requirement{name='Hello', type='story' parent = 'null', cardNumber='null'} = [Requirement{name='Hello', type='story' parent = 'null', cardNumber='null'}]
+[pool-4-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Requirements found:[Requirement{name='Hello', type='story' parent = 'null', cardNumber='null'}]
+Nov 18, 2016 1:02:05 PM freemarker.log._JULLoggerFactory$JULLogger error
+SEVERE: Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> breadcrumbs  [in template "freemarker/default.ftl" at line 33, column 16]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #list breadcrumbs as breadcrumb  [in template "freemarker/default.ftl" at line 33, column 9]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.Expression.assertNonNull(Expression.java:194)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:74)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at net.thucydides.core.reports.templates.FreemarkerReportTemplate.merge(FreemarkerReportTemplate.java:33)
+	at net.thucydides.core.reports.html.HtmlReporter$Merger.usingContext(HtmlReporter.java:175)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:93)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:210)
+	at net.thucydides.core.reports.ReportService.generateQueuedReport(ReportService.java:159)
+	at net.thucydides.core.reports.ReportService.access$000(ReportService.java:25)
+	at net.thucydides.core.reports.ReportService$2.run(ReportService.java:120)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:310)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:817)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:753)
+	at com.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:613)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.runInterruptibly(TrustedListenableFutureTask.java:108)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:41)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[pool-4-thread-1] ERROR net.thucydides.core.reports.templates.FreemarkerReportTemplate - Syntax error in report template: The following has evaluated to null or missing:
+==> breadcrumbs  [in template "freemarker/default.ftl" at line 33, column 16]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #list breadcrumbs as breadcrumb  [in template "freemarker/default.ftl" at line 33, column 9]
+----
+	- Failed at: #list breadcrumbs as breadcrumb  [in template "freemarker/default.ftl" at line 33, column 9]
+
+Nov 18, 2016 1:02:05 PM com.google.common.util.concurrent.AbstractFuture executeListener
+SEVERE: RuntimeException while executing runnable net.thucydides.core.reports.ReportService$2@19625268 with executor com.google.common.util.concurrent.MoreExecutors$DirectExecutorService@5cf30388
+java.lang.RuntimeException: Failed to merge template: Failed to process FreeMarker template
+	at net.thucydides.core.reports.html.HtmlReporter$Merger.usingContext(HtmlReporter.java:178)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:93)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:210)
+	at net.thucydides.core.reports.ReportService.generateQueuedReport(ReportService.java:159)
+	at net.thucydides.core.reports.ReportService.access$000(ReportService.java:25)
+	at net.thucydides.core.reports.ReportService$2.run(ReportService.java:120)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:310)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:817)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:753)
+	at com.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:613)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.runInterruptibly(TrustedListenableFutureTask.java:108)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:41)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: net.thucydides.core.reports.templates.TemplateMergeException: Failed to process FreeMarker template
+	at net.thucydides.core.reports.templates.FreemarkerReportTemplate.merge(FreemarkerReportTemplate.java:42)
+	at net.thucydides.core.reports.html.HtmlReporter$Merger.usingContext(HtmlReporter.java:175)
+	... 15 more
+Caused by: freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> breadcrumbs  [in template "freemarker/default.ftl" at line 33, column 16]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #list breadcrumbs as breadcrumb  [in template "freemarker/default.ftl" at line 33, column 9]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.Expression.assertNonNull(Expression.java:194)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:74)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at net.thucydides.core.reports.templates.FreemarkerReportTemplate.merge(FreemarkerReportTemplate.java:33)
+	... 16 more
+
+[pool-4-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Hello:Login into google page
+[Test worker] INFO net.thucydides.core.reports.ReportService - Reports generated in: 204
+]]></system-err>
+</testsuite>

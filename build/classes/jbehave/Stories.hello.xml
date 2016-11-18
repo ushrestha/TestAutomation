@@ -1,0 +1,25 @@
+<story path="Stories/hello.story" title="">
+<scenario keyword="Scenario:" title="Login into google page">
+<step outcome="pending" keyword="PENDING">Given I open google page</step>
+<step outcome="pending" keyword="PENDING">When I search for term &apos;apple&apos;</step>
+<step outcome="pending" keyword="PENDING">Then I should see link for &apos;apple&apos;</step>
+<pendingMethod>@Given(&quot;I open google page&quot;)
+@Pending
+public void givenIOpenGooglePage() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;I search for term &apos;apple&apos;&quot;)
+@Pending
+public void whenISearchForTermapple() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;I should see link for &apos;apple&apos;&quot;)
+@Pending
+public void thenIShouldSeeLinkForapple() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+</story>

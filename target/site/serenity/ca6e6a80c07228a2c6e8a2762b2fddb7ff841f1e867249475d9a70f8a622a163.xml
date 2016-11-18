@@ -1,0 +1,27 @@
+<acceptance-test-run title="Title of your scenario" name="Title of your scenario" description="" steps="3" successful="2" failures="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="13466" timestamp="2016-11-18T13:02:05.922-05:00">
+  <user-story id="title-of-your-feature" name="Title of your feature" path="hello.feature"/>
+  <tags>
+    <tag name="Title of your feature" type="feature"/>
+    <tag name="Hello" type="story"/>
+    <tag name="tag1" type="tag"/>
+  </tags>
+  <test-group name="Given I open google page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="5478">
+      <description>Open google page</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="220">
+    <description>When I search for term &apos;apple&apos;</description>
+  </test-step>
+  <test-group name="Then I should see link for &apos;apple&apos;" result="ERROR">
+    <test-step result="FAILURE" duration="353">
+      <screenshots>
+        <screenshot image="f8fc64715840cf3048fb34515b8e5149_NONE.png"/>
+      </screenshots>
+      <description>Should see definition of apple: &lt;span class=&apos;step-parameter&apos;&gt;apple&lt;/span&gt;</description>
+      <error>org.junit.ComparisonFailure: expected:&lt;[tru]e&gt; but was:&lt;[fals]e&gt;</error>
+      <exception>net.thucydides.core.webdriver.WebdriverAssertionError:org.junit.ComparisonFailure: expected:&lt;[tru]e&gt; but was:&lt;[fals]e&gt;&#xd;
+[kumar.steps.HelloStep.shouldSeeDefinitionOfApple(HelloStep.java:32), kumar.maps.HelloCucumberMap.shouldSeeDefinitionOfApple(HelloCucumberMap.java:24)]</exception>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

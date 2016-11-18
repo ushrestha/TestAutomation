@@ -1,0 +1,28 @@
+<xref>
+  <whenMade>1479492125669</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative></narrative>
+      <name>hello.story</name>
+      <path>Stories/hello.story</path>
+      <html>Stories.hello.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Login into google page
+Given I open google page
+When I search for term &apos;apple&apos;
+Then I should see link for &apos;apple&apos;
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>true</pending>
+      <started>1479492124375</started>
+      <duration>274</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

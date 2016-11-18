@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.story" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-11-18T18:02:04" hostname="BAHCND5292F7T" time="0.275">
+  <properties/>
+  <testcase name="classMethod" classname="hello.story" time="0.275"/>
+  <system-out><![CDATA[
+(Stories/hello.story)
+]]></system-out>
+  <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+-------------------------------------------------------------------------------------
+
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Hello
+]]></system-err>
+</testsuite>

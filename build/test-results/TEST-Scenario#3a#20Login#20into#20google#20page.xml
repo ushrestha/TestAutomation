@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Login into google page" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-11-18T18:02:04" hostname="BAHCND5292F7T" time="0.131">
+  <properties/>
+  <testcase name="classMethod" classname="Scenario: Login into google page" time="0.131"/>
+  <system-out><![CDATA[Scenario: Login into google page
+Given I open google page (PENDING)
+When I search for term 'apple' (PENDING)
+Then I should see link for 'apple' (PENDING)
+@Given("I open google page")
+@Pending
+public void givenIOpenGooglePage() {
+  // PENDING
+}
+
+@When("I search for term 'apple'")
+@Pending
+public void whenISearchForTermapple() {
+  // PENDING
+}
+
+@Then("I should see link for 'apple'")
+@Pending
+public void thenIShouldSeeLinkForapple() {
+  // PENDING
+}
+
+]]></system-out>
+  <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: Login into google page
+--------------------------------------------------------------------
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - TEST PENDING
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - TEST PENDING
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+</testsuite>
